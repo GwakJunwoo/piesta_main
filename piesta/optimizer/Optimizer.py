@@ -7,7 +7,7 @@ from exceptions.Exception import OptimizationError, InstantiationError
 import scipy.optimize as sco
 from tools.Loader import *
 from data.Tree import *
-from BaseOptimizer import *
+from optimizer.BaseOptimizer import *
 
 def get_covariance_matrix(nodes: List[Node])->np.ndarray:
     """

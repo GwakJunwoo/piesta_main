@@ -9,7 +9,7 @@ from tools.Calendar import TradingDayCalendar
 warnings.filterwarnings(action='ignore')
 
 # Load asset prices
-loader = Loader("./sample_2.csv")
+loader = Loader("sample_2.csv")
 
 universe = Tree("Universe")
 universe.insert("Universe", "ACWI", weight_bounds = (0.1, 0.8))
