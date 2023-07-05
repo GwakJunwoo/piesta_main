@@ -3,7 +3,7 @@ import cvxpy as cp
 import collections
 import exceptions
 import numpy as np
-from Exception import OptimizationError, InstantiationError
+from exceptions.Exception import OptimizationError, InstantiationError
 import scipy.optimize as sco
 
 class BaseOptimizer:

@@ -1,5 +1,5 @@
 from typing import List, Optional, Dict, Any, Tuple, Callable, Union
-from Tree import *
+from data.Tree import *
 
 class pipeline:
     def __init__(self, optimizers: List[Tuple[str, Callable]], universe: Tree):

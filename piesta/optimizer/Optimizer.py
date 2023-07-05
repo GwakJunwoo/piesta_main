@@ -3,10 +3,10 @@ import cvxpy as cp
 import collections
 import exceptions
 import numpy as np
-from Exception import OptimizationError, InstantiationError
+from exceptions.Exception import OptimizationError, InstantiationError
 import scipy.optimize as sco
-from Loader import *
-from Tree import *
+from tools.Loader import *
+from data.Tree import *
 from BaseOptimizer import *
 
 def get_covariance_matrix(nodes: List[Node])->np.ndarray:
